@@ -25,10 +25,11 @@
 
 #include <xc.h>
 
-
+#define _XTAL_FREQ 4000000
 
 void main(void) {
     while(1){
         __nop();
+        __delay_ms(40);
     }
 }
